@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "lato";
+  src: url(./../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "merri";
+  src: url(./../fonts/Merriweather-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  text-align: right;
+  margin-top: 21px;
+}
+header ul {
+  list-style: none;
+}
+header li {
+  display: inline;
+}
+header a {
+  font-family: "lato";
+  font-size: 1.1rem;
+  color: #3b5998;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+h2 {
+  font-family: "meri";
+  font-size: 3rem;
+  color: black;
+}
+p {
+  font-size: 1.2rem;
+  font-family: "meri";
+  color: #202020;
+  line-height: 2.4375rem;
+  margin-top: 1.25rem;
+}
+section {
+  margin-top: 6rem;
+}
+section.aw {
+  margin-left: 10%;
+}
+div {
+  display: inline-block;
+}
+section.firstbg {
+  background: url(./../img/illustration1.gif) no-repeat;
+  background-size: 30vw;
+  background-position: right;
+  min-height: 500px;
+}
+a.down {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+a.sub {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  text-decoration: none;
+}
+section.secondbg {
+  background: url(./../img/illustration2.png) no-repeat;
+  background-size: 30vw;
+  min-height: 500px;
+}
+section.thirdbg {
+  background: url(./../img/illustration3.png) no-repeat;
+  background-position: right;
+  background-size: 30vw;
+  min-height: 500px;
+  margin-right: 8%;
+}
+.secondbg article {
+  margin-right: 10%;
+  margin-left: auto;
+}
+.aw article {
+  width: 31%;
+}
+.xp article {
+  text-align: center;
+  padding-inline: 26%;
+}
+.bilder img {
+  max-width: 25%;
+}
+div.bilder {
+  text-align: center;
+  padding-inline: 9%;
+}
+.bilder img {
+  margin-inline: 2%;
+}
+div.bilderz {
+  text-align: center;
+  margin-inline: 5%;
+}
+.bilderz img {
+  margin: 2%;
+  width: max(41%, 400px);
+}
+section.membership {
+  text-align: center;
+}
+.membership article {
+  width: 33%;
+  margin: 0 auto;
+}
+.membership div {
+  background-color: #55acee1a;
+  width: 360px;
+}
+h3 {
+  font-size: 1.5rem;
+  padding-top: 4rem;
+}
+h1 {
+  font-size: 5rem;
+  padding-top: 2.75rem;
+}
+h4 {
+  color: #7e7e7e;
+  font-size: 1rem;
+  padding-top: 2.75rem;
+}
+p.memberships {
+  font-size: 1rem;
+  line-height: 0.05rem;
+}
+.membership a {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding: 1rem 3rem;
+  background-color: #55acee;
+  color: white;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  color: #7e7e7e;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+.fb {
+  color: #3b5998;
+}
+.ig {
+  color: #facf45;
+}
+.tw {
+  color: #55acee;
+}
+.yt {
+  color: #c4302b;
+}
+img {
+  transition: 0.5s;
+}
+img:hover {
+  box-shadow: 0 0 10px black;
+}
